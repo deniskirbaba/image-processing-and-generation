@@ -1,4 +1,4 @@
-# 2023_processing_and_generating_images_course
+# 2024_processing_and_generating_images_course
 
 Репозиторий с материалами курса "Обработка и генерация изображений" в AI Talent Hub.
 
