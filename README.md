@@ -132,7 +132,7 @@
 
 ## Полезная литература и доп. материалы
 
-1. Девид Фостер: Генеративное глубокое обучение. Как не мы рисуем картины, пишем романы и музыку. 2-е.
+1. Девид Фостер: Генеративное глубокое обучение. Как не мы рисуем картины, пишем романы и музыку. 2-е издание.
 2. Jakub Langr, Vladimir Bok: GANs in action
 3. YAJIE CUI, ZHAOXIANG LIU, AND SHIGUO LIAN: A Survey on Unsupervised Anomaly Detection Algorithms for Industrial Images
 4. A Cookbook of Self-Supervised Learning
