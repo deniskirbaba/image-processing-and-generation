@@ -15,4 +15,5 @@
 
 ## Дополнительные материалы по теме
 
+[Progress_and_Thinking_on_Self_Supervised_Learning_Methods_in_Computer.pdf](Progress_and_Thinking_on_Self_Supervised_Learning_Methods_in_Computer.pdf)
 [Colorization as a Proxy Task for Visual Understanding](https://ar5iv.labs.arxiv.org/html/1703.04044)
