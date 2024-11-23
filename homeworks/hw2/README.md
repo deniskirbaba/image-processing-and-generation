@@ -46,7 +46,7 @@ dataset
 3. Написать метод классификации лунок в зависимости от порога. Для определения порога используем изображения из dataset\proliv.
 4. На изображениях из dataset\test протестировать качество: посчитать True_positive_rate и True_negative_rate (нужно получить более 95% по каждой).
 
-### Для выполнения ДЗ можно так же выбрать один из датасетов:
+### Для выполнения ДЗ можно также выбрать один из датасетов:
 1. https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection-2
 2. https://www.kaggle.com/datasets/ipythonx/mvtec-ad
 3. https://www.kaggle.com/datasets/trainingdatapro/brain-anomaly-detection
