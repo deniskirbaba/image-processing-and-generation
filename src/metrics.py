@@ -10,6 +10,7 @@ class Metrics:
     """
     Class for metrics calculation for semantic segmentation task.
     """
+
     def __init__(self, num_classes: int, idx_to_class_name: dict, device):
         self.idx_to_class_name = idx_to_class_name
 
@@ -111,3 +112,43 @@ class Metrics:
         wandb.log(metrics, step=example_ct)
 
         self.reset()
+
+    def compute_wo_wandb_log(self) -> dict:
+        """
+        Computes metrics on test set without logging to wandb.
+        """
+        # Compute
+        metrics = self.compute()
+
+        # Format the per class metrics
+        precision_per_class = {
+            f"precision_{self.idx_to_class_name[i]}": val
+            for i, val in enumerate(metrics["precision_per_class"])
+        }
+        recall_per_class = {
+            f"recall_{self.idx_to_class_name[i]}": val
+            for i, val in enumerate(metrics["recall_per_class"])
+        }
+        f1_per_class = {
+            f"f1_{self.idx_to_class_name[i]}": val for i, val in enumerate(metrics["f1_per_class"])
+        }
+        dice_per_class = {
+            f"dice_{self.idx_to_class_name[i]}": val
+            for i, val in enumerate(metrics["dice_per_class"])
+        }
+
+        # Merge all in one dict
+        metrics.update(precision_per_class)
+        metrics.pop("precision_per_class")
+        metrics.update(recall_per_class)
+        metrics.pop("recall_per_class")
+        metrics.update(f1_per_class)
+        metrics.pop("f1_per_class")
+        metrics.update(dice_per_class)
+        metrics.pop("dice_per_class")
+
+        for key, value in list(metrics.items()):
+            metrics.pop(key)
+            metrics[f"test_{key}"] = value
+
+        return metrics
