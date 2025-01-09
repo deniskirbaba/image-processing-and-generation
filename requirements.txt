@@ -81,8 +81,10 @@ networkx @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_n
 notebook==7.3.2
 notebook_shim==0.2.4
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1734904247180/work/dist/numpy-2.2.1-cp313-cp313-linux_x86_64.whl#sha256=ba78960858aff31d4d0ac4b96b73a4dc6254f40765317089fcda3fe4dda5feb1
+onnx @ file:///home/conda/feedstock_root/build_artifacts/onnx_1735631848299/work
 overrides==7.7.0
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1726878403859/work
 pandocfilters==1.5.1
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
 pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work
@@ -92,7 +94,7 @@ platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_17
 prometheus_client==0.21.1
 promise @ file:///home/conda/feedstock_root/build_artifacts/promise_1725358031895/work
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1733302527033/work
-protobuf @ file:///home/conda/feedstock_root/build_artifacts/protobuf_1728668316142/work/bazel-bin/python/dist/protobuf-5.28.2-cp313-abi3-linux_x86_64.whl#sha256=dbe6e75a3f9691b6012117450c101145cc3f9efebd9e2961306f32823ba1faef
+protobuf @ file:///home/conda/feedstock_root/build_artifacts/protobuf_1731365432676/work/bazel-bin/python/dist/protobuf-5.28.3-cp313-abi3-linux_x86_64.whl#sha256=00ff2fe36aece116fda79213f134e1f3a58fbf7a12ef239d9b616c2568bc3fb8
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1735327324387/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
@@ -107,6 +109,7 @@ python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateu
 python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv_1733243180666/work
 python-json-logger==3.2.1
 pytorch-ignite @ file:///home/conda/feedstock_root/build_artifacts/pytorch-ignite_1731897077659/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
 PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1725456146795/work
 pyzmq @ file:///home/conda/feedstock_root/build_artifacts/pyzmq_1728642243942/work
 referencing==0.35.1
@@ -125,16 +128,19 @@ sniffio==1.3.1
 soupsieve==2.6
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
 sympy @ file:///home/conda/feedstock_root/build_artifacts/sympy_1728484478345/work
+tabulate==0.9.0
 terminado==0.18.1
 tinycss2==1.4.0
-torch @ file:///home/conda/feedstock_root/build_artifacts/libtorch_1735184004493/work
+torch @ file:///home/conda/feedstock_root/build_artifacts/libtorch_1736083029558/work
 torcheval==0.0.7
+torchinfo @ file:///home/conda/feedstock_root/build_artifacts/torchinfo_1735141362764/work
 torchvision @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_torchvision_1735353731/work
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615881993/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1732497199771/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
 types-python-dateutil==2.9.0.20241206
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1733235305708/work
 uri-template==1.3.0
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1734859416348/work
 wandb @ file:///home/conda/feedstock_root/build_artifacts/wandb_1734139869833/work
