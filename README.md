@@ -362,9 +362,3 @@
 <https://arxiv.org/abs/1505.04597>
 
 <https://arxiv.org/abs/2302.06378>
-
-<https://arxiv.org/pdf/2305.03273>
-
-<https://paperswithcode.com/method/vision-transformer>
-
-<https://habr.com/ru/articles/599057/>
