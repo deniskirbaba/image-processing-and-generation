@@ -44,7 +44,7 @@
 - [Andrew Brock. Large Scale GAN Training for High Fidelity Natural Image Synthesis. 2018](https://arxiv.org/abs/1809.11096)
 - [Tero Karras. A Style-Based Generator Architecture for Generative Adversarial Networks. 2018](https://arxiv.org/abs/1812.04948)
 - [Zhou Wang. Image Quality Assessment: From Error Visibility to Structural Similarity. 2004](https://www.researchgate.net/publication/3327793_Image_Quality_Assessment_From_Error_Visibility_to_Structural_Similarity)
-- [Radford A. Learning Transferable Visual Models From Natural Language Supervision. 2021](https://arxiv.org/pdf/2103.00020)[[GitHub](https://github.com/OpenAI/CLIP)]\
+- [Radford A. Learning Transferable Visual Models From Natural Language Supervision. 2021](https://arxiv.org/pdf/2103.00020)[[GitHub](https://github.com/OpenAI/CLIP)]
 [Caron M. Unsupervised learning of visual features by contrasting cluster assignments. 2020](https://dl.acm.org/doi/abs/10.5555/3495724.3496555)[[GitHub](https://github.com/facebookresearch/swav)]
 - [Sik-Ho Tsang. Review — SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments. Medium](https://sh-tsang.medium.com/swav-unsupervised-learning-of-visual-features-by-contrasting-cluster-assignments-f36dc9a7affc)
 - [Implementation of several metrics for tasks with image. Torchmetrics](https://lightning.ai/docs/torchmetrics/stable/all-metrics.html)
